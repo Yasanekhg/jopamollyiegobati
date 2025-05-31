@@ -177,9 +177,9 @@ if game.CoreGui:FindFirstChild("woof") then
  local objects = {}
  
  getgenv().GUI_Color = {
-    Bacground = Color3.fromRGB(245, 230, 240),
-    DarkContrast = Color3.fromRGB(220, 220, 220),
-    TextColor = Color3.fromRGB(50, 50, 50)
+    Bacground = Color3.fromRGB(15, 20, 35),
+    DarkContrast = Color3.fromRGB(40, 40, 50),
+    TextColor = Color3.fromRGB(240, 240, 240)
  }
  
  function Mainholder:Window(hubname, gamename)
@@ -1094,7 +1094,7 @@ if game.CoreGui:FindFirstChild("woof") then
     TabTitle.TextSize = 17.000
     TabTitle.TextXAlignment = Enum.TextXAlignment.Left
     
-    TabGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(236, 136, 36)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 204, 51))}
+    TabGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(120, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(80, 0, 0))}
     TabGradient.Name = "TabGradient"
     TabGradient.Parent = Tab
  

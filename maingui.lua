@@ -177,9 +177,9 @@ if game.CoreGui:FindFirstChild("woof") then
  local objects = {}
  
  getgenv().GUI_Color = {
-    Bacground = Color3.fromRGB(27, 27, 27),
-    DarkContrast = Color3.fromRGB(35, 35, 35),
-    TextColor = Color3.fromRGB(255, 255, 255)
+    Bacground = Color3.fromRGB(245, 230, 240),
+    DarkContrast = Color3.fromRGB(220, 220, 220),
+    TextColor = Color3.fromRGB(50, 50, 50)
  }
  
  function Mainholder:Window(hubname, gamename)
